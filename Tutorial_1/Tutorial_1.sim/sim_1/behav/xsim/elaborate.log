@@ -1,0 +1,38 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 18b3cb26a3c34cbdab88f6b2009a8976 --incr --debug typical --relax --mt 2 -L axi_lite_ipif_v3_0_4 -L v_tc_v6_1_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_source_tb_behav xil_defaultlib.VGA_source_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling package v_tc_v6_1_13.video_ctrl_pkg
+Compiling package v_tc_v6_1_13.hwt_pkg
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity v_tc_v6_1_13.video_ctrl [\video_ctrl(c_family="virtex5",c...]
+Compiling architecture rtl of entity v_tc_v6_1_13.tc_generator [\tc_generator(c_max_pixels=4096,...]
+Compiling architecture rtl of entity v_tc_v6_1_13.tc_top [\tc_top(c_detect_en=0,c_det_achr...]
+Compiling architecture imp of entity v_tc_v6_1_13.v_tc [\v_tc(c_has_axi4_lite=0,c_gen_vi...]
+Compiling architecture v_tc_0_arch of entity xil_defaultlib.v_tc_0 [v_tc_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.VGA_SOURCE [vga_source_default]
+Compiling architecture vga_source_bd_vga_source_0_0_arch of entity xil_defaultlib.VGA_source_bd_VGA_SOURCE_0_0 [vga_source_bd_vga_source_0_0_def...]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.VGA_source_bd_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.VGA_source_bd_clk_wiz_0
+Compiling architecture structure of entity xil_defaultlib.VGA_source_bd [vga_source_bd_default]
+Compiling architecture structure of entity xil_defaultlib.VGA_source_bd_wrapper [vga_source_bd_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_source_tb
+Built simulation snapshot VGA_source_tb_behav

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Tutorial_1.ip_user_files/bd/VGA_source_bd/ip/VGA_source_bd_VGA_SOURCE_0_0/ip/v_tc_0/sim/v_tc_0.vhd" \
+"../../../../Tutorial_1.ip_user_files/bd/VGA_source_bd/ipshared/04d1/imports/src/VGA_SOURCE.vhd" \
+"../../../../Tutorial_1.ip_user_files/bd/VGA_source_bd/ip/VGA_source_bd_VGA_SOURCE_0_0/sim/VGA_source_bd_VGA_SOURCE_0_0.vhd" \
+"../../../../Tutorial_1.ip_user_files/bd/VGA_source_bd/sim/VGA_source_bd.vhd" \
+"../../../../Tutorial_1.srcs/sources_1/bd/VGA_source_bd/hdl/VGA_source_bd_wrapper.vhd" \
+"../../../../Tutorial_1.srcs/sim_1/imports/sim/VGA_source_tb.vhd" \
+
+# Do not sort compile order
+nosort

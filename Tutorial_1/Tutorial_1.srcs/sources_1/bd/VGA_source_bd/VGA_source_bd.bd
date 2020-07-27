@@ -1,0 +1,115 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x72095BBA4ACFC4CD",
+      "device": "xc7z020clg484-1",
+      "name": "VGA_source_bd",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "VGA_SOURCE_0": "",
+      "clk_wiz": ""
+    },
+    "ports": {
+      "red_data_out": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "green_data_out": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "blue_data_out": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "hsync_out": {
+        "direction": "O"
+      },
+      "vsync_out": {
+        "direction": "O"
+      },
+      "clk_in1": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "VGA_source_bd_clk_in1_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "VGA_SOURCE_0": {
+        "vlnv": "xilinx.com:user:VGA_SOURCE:1.0",
+        "xci_name": "VGA_source_bd_VGA_SOURCE_0_0"
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "VGA_source_bd_clk_wiz_0"
+      }
+    },
+    "nets": {
+      "VGA_SOURCE_0_red_data_out": {
+        "ports": [
+          "VGA_SOURCE_0/red_data_out",
+          "red_data_out"
+        ]
+      },
+      "VGA_SOURCE_0_green_data_out": {
+        "ports": [
+          "VGA_SOURCE_0/green_data_out",
+          "green_data_out"
+        ]
+      },
+      "VGA_SOURCE_0_blue_data_out": {
+        "ports": [
+          "VGA_SOURCE_0/blue_data_out",
+          "blue_data_out"
+        ]
+      },
+      "VGA_SOURCE_0_hsync_out": {
+        "ports": [
+          "VGA_SOURCE_0/hsync_out",
+          "hsync_out"
+        ]
+      },
+      "VGA_SOURCE_0_vsync_out": {
+        "ports": [
+          "VGA_SOURCE_0/vsync_out",
+          "vsync_out"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "VGA_SOURCE_0/clk_108MHz"
+        ]
+      },
+      "clk_in1_0_1": {
+        "ports": [
+          "clk_in1",
+          "clk_wiz/clk_in1"
+        ]
+      }
+    }
+  }
+}

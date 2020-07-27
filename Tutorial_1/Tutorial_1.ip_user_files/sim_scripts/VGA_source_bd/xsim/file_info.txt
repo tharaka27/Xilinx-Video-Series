@@ -1,0 +1,2 @@
+VGA_source_bd.vhd,vhdl,xil_defaultlib,../../../../Tutorial_1.srcs/sources_1/bd/VGA_source_bd/sim/VGA_source_bd.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

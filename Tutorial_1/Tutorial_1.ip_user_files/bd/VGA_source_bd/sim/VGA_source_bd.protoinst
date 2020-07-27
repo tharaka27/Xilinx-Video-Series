@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"VGA_source_bd": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_in1 -pg 1 -y -60 -defaultsOSRD
+preplace port vsync_out -pg 1 -y -30 -defaultsOSRD
+preplace port hsync_out -pg 1 -y -60 -defaultsOSRD
+preplace portBus green_data_out -pg 1 -y -120 -defaultsOSRD
+preplace portBus blue_data_out -pg 1 -y -90 -defaultsOSRD
+preplace portBus red_data_out -pg 1 -y -150 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y -70 -defaultsOSRD
+preplace inst VGA_SOURCE_0 -pg 1 -lvl 2 -y -80 -defaultsOSRD
+preplace netloc VGA_SOURCE_0_green_data_out 1 2 1 310
+preplace netloc VGA_SOURCE_0_vsync_out 1 2 1 N
+preplace netloc clk_in1_0_1 1 0 1 N
+preplace netloc VGA_SOURCE_0_red_data_out 1 2 1 310
+preplace netloc VGA_SOURCE_0_hsync_out 1 2 1 310
+preplace netloc clk_wiz_clk_out1 1 1 1 N
+preplace netloc VGA_SOURCE_0_blue_data_out 1 2 1 N
+levelinfo -pg 1 -180 -70 170 360 -top -190 -bot 220
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}
